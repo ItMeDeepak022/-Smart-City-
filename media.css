@@ -1,0 +1,232 @@
+@media only screen and (min-width:220px) and (max-width:575px){
+
+   
+.Toggle{
+  position:fixed;
+  top:26px;right: 100px;
+}
+.Toggle i{
+    width: 40px;
+    height:40px;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+          /* ------------------------------Slider-------------- */
+.Demo{
+    position: fixed;
+    transform: scale(1);
+    right: -100%;
+    z-index:999 !important;
+    }
+
+
+
+
+/* ------------------------------Slider End-------------- */
+
+
+
+
+    .Icons{
+    right:5px;
+    top:150px;
+    gap: 7px;
+}
+.IconCircle>img{
+  width: 40px;
+  height:40px;
+  border-radius:50%;
+  border: 2px solid white;
+}
+
+    .Callnow{
+        transform: scale(1);
+        animation: colorChange 5s initial ease;
+    }
+
+
+   
+
+
+
+header .headerMid{
+    flex-direction: column;
+    height: 76px;
+    box-sizing: border-box;
+    
+}
+  .headerMid>ul{
+    transform: scale(0);
+  }
+  .bars{
+    transform: scale(1);
+}
+
+.headerMid>figure>a>img{
+    width: 40%;
+    height: 75px;
+    /* border: 1px solid red; */
+    padding-top: 5px;
+}
+.BookClass{
+    height:454px;
+}
+.BookClass>h1{
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 32px;
+}
+.BookClassMid{
+    flex-direction: column;
+}
+.BookClassMid>.Item{
+    width:90%;
+    margin:0px 20px;
+    
+}
+.BookClass1{
+    padding: 20px 0px;
+}
+.BookClassMid1{
+    flex-direction: column;
+}
+.BookClassMid1>.Item{
+ width: 100%;
+}
+.BookClass1>h1{
+    font-size: 35px;
+}
+.BookClass1>p{
+    padding: 20px 0px;
+}
+.ContentLogo{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.MidContenLogo{
+    flex-direction: column;
+}
+.MidContenLogo>.logo{
+ padding: 0px 10px;
+}
+.MidContentLogo1{
+    flex-direction: column;
+}
+.Records{
+    flex-direction: column;
+    margin:auto;
+}
+.Records>.box{
+    width: calc(100% - 80px);
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.Hlg{
+    padding:10px 0px;
+}
+.Hlg>.BookNow{
+    bottom: 35px;
+}
+.container{
+    margin: 0px 10px;
+}
+.HlgMid{
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+}
+
+.images{
+    margin-top:20px;
+}
+.Frames{
+     grid-template-columns: repeat(1,1fr);
+    
+}
+.Frames>.f1>iframe{
+    max-width:100%;
+    height: 200px;
+    padding: 0px 10px;
+}
+.Experience>h2{
+        padding: 10px 0px;
+        
+     }
+     .Experience>p{
+        padding: 10px 0px;
+     }
+      .location{
+        max-width: 1320px;
+         margin:120px auto 30px auto;
+        /* border: 1px solid rebeccapurple; */
+     }
+.amenities-slider>.arrow{
+    display: none;
+}
+.Gallery{
+    margin:10px;
+    grid-template-columns:repeat(2,1fr);
+    gap: 10px;
+}
+ .MidHomeLoan{
+    flex-direction: column;
+ }
+ .MidHomeLoan>.box{
+    width:60%;
+    margin: 0px 50%;
+    transform: translate(-50%);
+}
+ .MidHomeLoan>.box>figure{
+  width: 70%;
+}
+.MidHomeLoan>.box>figure>img{
+    width: 100%;
+    object-fit: contain;
+}
+.MidShedule{
+    flex-direction: column;
+}
+.MidShedule{
+    padding:30px 10px;
+}
+.MidShedule>figure{
+    width: 100%;
+
+}
+.MidShedule>.Content{
+    width: 100%;
+    padding: 20px 10px;
+}
+.MidShedule>figure img{
+   object-fit:cover;
+
+}
+.MidShedule>.Content .twobtns{
+    width: 100%;
+    gap: 10px;
+}
+.MidShedule>.Content .twobtns button:nth-child(1){
+   width: 140px;
+}
+.MidShedule>.Content .twobtns button:nth-child(2){
+   flex-grow: 1;
+   
+}
+.footerMid .r1{
+    padding:10px 0px;
+    flex-direction: column;
+}
+.footerMid .r1 .List:nth-child(1){
+    width: 100%;
+    text-align: center;
+}
+.footerMid .r1 .List:nth-child(1) h2{
+    font-weight: 500;
+}
+
+.PriceList>h3{
+    padding: 20px 0px;
+}
+ 
+
+}
