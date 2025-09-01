@@ -1282,7 +1282,7 @@ footer{
     display: block;
     color: plum;
     font-weight: bolder;
-    padding-top: 20px;
+    padding: 30px 0px;
     font-size:18px;
     text-shadow: 0px 0px 10px black;
 }
