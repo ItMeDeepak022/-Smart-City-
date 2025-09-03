@@ -39,6 +39,13 @@
     flex-direction: column;
     z-index: 999 !important;
 }
+.BoxForm>.r1{
+    width:310px;
+    height:70px;
+    box-sizing: border-box;
+    position: relative;
+    /* border-bottom:1px solid grey; */
+}
 .BoxForm .r1>h1{
     padding: 10px;
     font-weight: normal;
