@@ -26,7 +26,6 @@
 /* -----------------------------------------------pop up box---------------- */
 .BoxForm{
     max-width:310px;
-    height: 480px;
     background-color: white;
     border-radius: 2px solid #ccc;
     box-shadow: 0px 0px 10px 3px #ccc;
