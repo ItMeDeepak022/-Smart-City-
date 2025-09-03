@@ -55,8 +55,8 @@
     position: absolute;
     color:black;
     font-size:45px;
-    top:0px;
-    right:120px;
+    top:2px;
+    right:10px;
     cursor: pointer;
 }
 .ZoomImg img{
