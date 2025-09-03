@@ -53,8 +53,9 @@
     cursor: pointer;
 }
 .ZoomImg img{
-    width:300px;
-    height:300px;
+    width:320px;
+    height:400px;
+    object-fit: cover;
     
 }
 
