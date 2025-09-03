@@ -16,14 +16,55 @@
 .Demo{
     position: fixed;
     transform: scale(1);
-    right: -100%;
+    right:-100%;
     z-index:999 !important;
     }
 
+    /* ------------------------------Slider End-------------- */
+
+
+/* -----------------------------------------------pop up box---------------- */
+.BoxForm{
+    max-width:310px;
+    height: 480px;
+    background-color: white;
+    border-radius: 2px solid #ccc;
+    box-shadow: 0px 0px 10px 3px #ccc;
+    position: fixed;
+    top: -50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    z-index: 999 !important;
+}
+.BoxForm .r1>h1{
+    padding: 10px;
+    font-weight: normal;
+    color: black;
+}
+.BoxForm .r1>h2{
+    position: absolute;
+    color:black;
+    font-size:45px;
+    top:0px;
+    right:120px;
+    cursor: pointer;
+}
+.ZoomImg img{
+    width:300px;
+    height:300px;
+    
+}
 
 
 
-/* ------------------------------Slider End-------------- */
+
+
+/* ---------------------------------------------------------------------------- */
+
+
 
 
 
@@ -43,6 +84,7 @@
     .Callnow{
         transform: scale(1);
         animation: colorChange 5s initial ease;
+        z-index: 999 !important;
     }
 
 
@@ -69,6 +111,10 @@ header .headerMid{
     /* border: 1px solid red; */
     padding-top: 5px;
 }
+
+
+
+
 .BookClass{
     height:454px;
 }

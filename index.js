@@ -1,13 +1,22 @@
 let BoxModel=document.querySelector(".BoxForm")
         let Cross=document.querySelector(".BoxForm .r1 h2")
         let btn=document.querySelector(".headerMid>ul>li>.btn1")
+        let btn1=document.querySelector(".Demo>ul>li>.btn1")
+        
+
+         btn1.addEventListener("click",() => {
+            BoxModel.style.top="50%";
+        })
+
+      
 
         btn.addEventListener("click",() => {
             BoxModel.style.top="50%";
         })
 
-        Cross.addEventListener("click",() => {
+        Cross.addEventListener("click",(e) => {
             BoxModel.style.top="-100%";
+           
         })
 
 
@@ -22,9 +31,6 @@ let BoxModel=document.querySelector(".BoxForm")
           DarkMode.addEventListener("click",()=>{
              all.forEach(el => {
                el.classList.toggle("DarkMode")
-             
-              //  el.style.backgroundColor='black'
-              //  el.style.color = "white";
              
            });
           })
@@ -136,15 +142,29 @@ let allqueston=document.querySelectorAll(".Content1 h2");
 
         // --------------------------------------------Slider logic 
 
-        let Slider=document.querySelector(".bars");
+        let Slider=document.querySelector(".bars .fa-bars");
         let box=document.querySelector(".Demo");
-        let cancel=document.querySelector(".Demo h3")
+        let content=document.querySelectorAll(".Demo ul li")
+        // console.log(content);
         
 
         Slider.addEventListener("click",()=>{
-              box.classList.add("ShowDemo");
+              box.classList.toggle("ShowDemo");
+              Slider.classList.toggle("fa-bars")
+              Slider.classList.toggle("fa-xmark")
+            
         })
+            content.forEach(()=>{
+             box.addEventListener("click",()=>{
+               box.classList.toggle("ShowDemo");
+               Slider.classList.toggle("fa-bars")
+               Slider.classList.toggle("fa-xmark")
+             })
+            })
+             
+        
 
-        cancel.addEventListener("click",()=>{
-         cancel.parentElement.classList.remove("ShowDemo");
-        })
+        
+
+
+        
